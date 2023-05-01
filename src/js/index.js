@@ -57,7 +57,7 @@ function renderImageList(images) {
     .map(image => {
         console.log('img', image);
         return `<div class="photo-card">
-        <a href=${image.largeImageURL}"><img src="${image.webformatURL}" alt="${image.tags}" title="${image.tags}" loading="lazy" /></a>
+        <a href=${image.largeImageURL}><img src="${image.webformatURL}" alt="${image.tags}" title="${image.tags}" loading="lazy" /></a>
 
         <div class="info">
           <p class="info-item">
